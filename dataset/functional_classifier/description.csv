@@ -334,3 +334,171 @@ https://github.com/tensorflow/magenta,DL,Rosna Thomas,"about Magenta, check out 
 https://github.com/tensorflow/magenta,DL,Rosna Thomas,where we post technical details.  You can also join our discussion
 https://github.com/tensorflow/magenta,DL,Rosna Thomas,group.
 https://github.com/tensorflow/magenta,DL,Rosna Thomas,"This is the home for our Python TensorFlow library. To use our models in the browser with TensorFlow.js, head to the Magenta.js repository."
+https://github.com/OCA/purchase-workflow/tree/12.0/procurement_purchase_no_grouping,DM,hao yang,This module allows to not group generated purchase orders from procurements
+https://github.com/OCA/purchase-workflow/tree/12.0/procurement_purchase_no_grouping,DM,hao yang,The grouping behaviour can be configurable at product category level
+https://github.com/OCA/purchase-workflow/tree/12.0/product_form_purchase_link,DM,hao yang,Add a button on product forms to access Purchase Lines
+https://github.com/OCA/purchase-workflow/tree/12.0/product_supplier_code_purchase,DM,hao yang,This module adds to the purchase order line the supplier code defined in the product
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_allowed_product,DM,hao yang,"This module adds a restriction in purchase and supplier invoices that has the mark ""Order and invoice only supplied products"" "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_allowed_product,DM,hao yang,checked for allowing to select only products that can be supplied by the defined vendor
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_allowed_product,DM,hao yang,"The restriction can be set by default for each partner, and it's propagated to their supplier invoices and purchases, "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_allowed_product,DM,hao yang,but it can be changed for each invoice and purchase order if you want
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_analytic_global,DM,hao yang,This module adds an analytic account on the purchases that is applied on all the lines
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_blanket_order,DM,hao yang,A purchase blanket order is a pre-agreement to purchase a certain number of quantities of products at a specific price
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_blanket_order,DM,hao yang,"From a confirmed blanket order, the users can create new purchase orders at such price, "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_blanket_order,DM,hao yang,until the blanket order expires due to reaching the validity date
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_commercial_partner,DM,hao yang,This module adds a related stored field Commercial Supplier on purchase orders
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_commercial_partner,DM,hao yang,It is similar to the native field Commercial Partner on invoices
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_commercial_partner,DM,hao yang,This module is the twin brother of the OCA module sale_commercial_partner located in the sale-workflow project
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_date_planned_manual,DM,hao yang,This module makes the system to always respect the planned (or scheduled) date set by the user when creating a Purchase Order
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_date_planned_manual,DM,hao yang,"Additionally, this module modifies the PO views and sets in red the lines that "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_date_planned_manual,DM,hao yang,are predicted to arrive late compared to the scheduled date and vendor lead time
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_default_terms_conditions,DM,hao yang,This module allows purchase default terms & conditions
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_delivery_split_date,DM,hao yang,"When this module is installed, each Purchase Order you confirm will generate one Incoming "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_delivery_split_date,DM,hao yang,Shipment for each schedule date indicated in the Purchase Order Lines
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_delivery_split_date,DM,hao yang,"Once the Purchase Order has been confirmed, subsequent changes made to the scheduled dates in the PO lines "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_delivery_split_date,DM,hao yang,"will produce a reorganization of the corresponding stock moves in the Incoming Shipments,"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_delivery_split_date,DM,hao yang," creating/deleting new Incoming Shipments when needed, to ensure that each "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_delivery_split_date,DM,hao yang,Incoming Shipment contains moves to be received in the same date
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_delivery_split_date,DM,hao yang,"This module is also designed for extensibility, so that you can define in other modules new criteria to split deliveries"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_deposit,DM,hao yang,This module allow purchase order to register deposit similar to that in sales order
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_discount,DM,hao yang,This module allows to define a discount per line in the purchase orders
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_discount,DM,hao yang,"This discount can be also negative, interpreting it as an increment"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_discount,DM,hao yang,It also modifies the purchase order report to include the discount field in it
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_discount,DM,hao yang,"This module allows to input a discount in the supplier info form, and propagate it to purchase order lines"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_exception,DA,hao yang,This module allows you attach several customizable exceptions to your purchase order in a way that you can filter orders by exceptions type and fix them
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_exception,DA,hao yang,"This is especially useful in an scenario for mass purchases order import, because it's likely some orders have errors "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_exception,DA,hao yang,"when you import them (like product not found in Odoo, wrong line format etc"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_force_invoiced,DM,hao yang,"This module adds the possibility for users to force the invoice status of the purchase orders to 'No Bill to Receive', "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_force_invoiced,DM,hao yang,"even when not all the quantities, ordered or delivered, have been invoiced"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_force_invoiced,DM,hao yang,This feature is useful in the following scenario:The supplier disputes the quantities to be 
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_force_invoiced,DM,hao yang,"billed for, after the products have been delivered to her/him, and you agree to reduce the quantity to invoice (without expecting a refund)"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_force_invoiced,DM,hao yang,"When migrating from a previous Odoo version, in some cases there is less quantity billed"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_force_invoiced,DM,hao yang," to what was delivered, and you don't want these old purchase orders to appear in your 'Waiting Bills' list"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_invoice_plan,DM,hao yang,"By standard feature, user can gradually create partial invoices, one by one and in step create invoice the standard call invoice"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_invoice_plan,DM,hao yang,"This module add ability to create invoices based on the predefined invoice plan, either all at once, or one by one"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_invoice_plan,DM,hao yang,"Important This is an alpha version, the data model and design can change at any time without warning"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_invoice_plan,DM,hao yang,"Only for development or testing purpose, do not use in production"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_invoice_plan,DM,hao yang,More details on development status
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,DM,hao yang,The functionality of this module is to provide a way to manage your purchase costs more easily than the official module
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,DM,hao yang, (stock_landed_cost) and allow to distribute them with a lot of methods
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,DM,hao yang,Possibility to assign landed cost afterwards in a separate screen
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,DM,hao yang,Management of expense types with preconfigured calculation methods
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,DM,hao yang,"Distribution of costs based on weight, volume, product price, etc"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,DM,hao yang,Types marked as default are automatically added to each new purchase distribution
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,DM,hao yang,Management orders shopping expenses associated with one or more entry slips
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,DM,hao yang,Upgrade cost price of products based on the costs
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,DM,hao yang,Currently only one type of upgrade cost is available: direct upgrade
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_last_price_info,DM,hao yang,This module adds the last purchase info of the product
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_line_procurement_group,DM,hao yang,This module changes the way procurements generate purchase order lines
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_line_procurement_group,DM,hao yang,"If some procurements are run for the same products and locations, but have different procurement groups, "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_line_procurement_group,DM,hao yang,these won't be merged in the same purchase order line and will instead generate a purchase order line per procurement group
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_line_procurement_group,DM,hao yang,Moreover this module ensures that generated stock move won't be merged together if they come from purchase order lines with different procurement groups
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_location_by_line,DM,hao yang,Allows to define a specific destination location on each Purchase Order line
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_location_by_line,DM,hao yang,"When the PO is confirmed, it will generate one Incoming Shipment per combination of destination location and expected date indicated in the Purchase Order Lines"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_location_by_line,DM,hao yang,"This module is used to send the products to different locations, that may not be children of the default location of the same PO picking type"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_location_by_line,DM,hao yang,Not be confused
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_manual_delivery,DM,hao yang,The goal of this module is to allow the manual creation of incoming shipments
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_manual_delivery,DM,hao yang,"When installed, a purchase order won't impact directly the stock"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_manual_delivery,DM,hao yang,It will not create the pickings upon order confirmation
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_manual_delivery,DM,hao yang,It allows the reception and the impact on stock to be done manually when needed
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_manual_delivery,DM,hao yang,The goal is to be used when a supplier does not confirm the full order at once
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_manual_delivery,DM,hao yang,"As the supplier confirms the different purchase order lines, the user can manually create the incoming shipments for those specific lines"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_minimum_amount,DM,hao yang,This module allows you to establish and automate a specific Purchase Order Approval Block Reason in the system: the 'Minimum Purchase Order Amount per Vendor'
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_open_qty,DM,hao yang,This module allows purchase users to identify what are the purchase orders that currently have quantities pending to invoice or to receive
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_analytic_search,DM,hao yang,"Organizations often require to quickly find the purchase orders associated to an analytic account, searching by it's code, name or project/account manager"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_analytic_search,DM,hao yang,This module introduces the possibility to search purchase orders by analytic account
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_analytic_search,DM,hao yang,It also introduces a new menu entry in Purchasing to list purchase order lines
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approval_block,DM,hao yang,This module allows you to block the approval of an RFQ when an Approval Block Reason has been provided
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approval_block,DM,hao yang,Upon confirmation of an RFQ the orders will be waiting for approval by a Manager
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approved,DM,hao yang,This module extends the functionality of purchases adding a new state Approved in purchase orders before the Purchase Order state
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approved,DM,hao yang,Additionally add the possibility to set back to draft a purchase order in all the states previous to Purchase Order
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approved,DM,hao yang,You cannot modify the purchase order
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approved,DM,hao yang,"However, you can go back to draft and pass through the workflow again"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approved,DM,hao yang,The incoming shipments are not created
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approved,DM,hao yang,"You can create them by clicking the Convert to Purchase Order button, also moving to state Purchase Order"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_archive,DM,hao yang,"On a system with a high volume of purchases, the number of purchase orders displayed in the list view can become huge"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_archive,DM,hao yang,This module allows to archive Purchase Orders that are in status Locked or Cancelled
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_archive,DM,hao yang,"If a purchase order is archived, it will be hidden from the purchase orders list view"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_archive,DM,hao yang,"This module only depends on module purchase, but it could be used in combination with OCA"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_archive,DM,hao yang, module 'record_archiver' in order to automatically archive old purchase orders
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_general_discount,DM,hao yang,This module allows to set a general discount in a purchase order
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_general_discount,DM,hao yang,This general discount is applied to each line order
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_general_discount,DM,hao yang,You can also set a default general discount on suppliers and configure to wich line field the discount will be applied
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_reception_status,DM,hao yang,This module adds a field Receiption Status on purchase orders
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_reception_status,DM,hao yang,"On a confirmed purchase order, it can have 3 different values:Nothing Received Partially Receive Fully Received"
+https://github.com/biwin/standalone,DM,hao yang,Standalone lets you access Django shell from your Python modules or to run your django module as a standalone module with access to Django shell
+https://github.com/tpisani/django-thumborize,DA,hao yang,Minimal interface for thumbor imaging service
+https://github.com/jwygoda/django-lgi,DM,hao yang,django-lgi is a python module that interprets HTTP API requests sent to your Django project in Lambda
+https://github.com/fastly/fastly-py,DA,hao yang,fastly-py is available through pip as the fastly package There are three simple scripts 
+https://github.com/fastly/fastly-py,DA,hao yang,provided in /bin that can be used for various stand-alone purge operations
+https://github.com/zuo/unittest_expander,DL,hao yang,"unittest_expander is a Python library that provides flexible and easy-to-use tools to parameterize your unit tests, especially those based on unittest"
+https://github.com/zuo/unittest_expander,DL,hao yang,"The library is compatible with Python 28, and does not depend on any external packages (i, uses only the Python standard library)"
+https://github.com/gpoulter/fablib,DL,hao yang,"""fablib"" is a small collection of helper functions for the Fabric deployment and system administration tool"
+https://github.com/gpoulter/fablib,DL,hao yang,"Further, it is built on top of the cuisine library of Fabric helper functions"
+https://github.com/gpoulter/fablib,DL,hao yang,Warning: This is alpha software
+https://github.com/gpoulter/fablib,DL,hao yang,Anything and everything could change without notice
+https://github.com/gpoulter/fablib,DL,hao yang,"Also, I should probably try get some of these into a state where they can be added to cuisine"
+https://github.com/nstrydom2/anonfile-api,DM,hao yang,This unofficial Python API was created to make uploading and downloading files from Anonfile
+https://github.com/nstrydom2/anonfile-api,DM,hao yang,"com simple, and effective for programming in Python"
+https://github.com/nstrydom2/anonfile-api,DM,hao yang,The goal of the project is to create an intuitive library for anonymous file sharing
+https://github.com/rocktavious/DevToolsLib,DL,hao yang,"Dev Tools Library is a multiplatform tools development api, targeted to help keep you focused on writing the tools and not the connective glue code between packages"
+https://github.com/datacoon/undatum/,DL,hao yang,undatum (pronounced un-da-tum) is a command line data processing tool
+https://github.com/datacoon/undatum/,DL,hao yang,Its goal is to make CLI interaction with huge datasets so easy as possible
+https://github.com/datacoon/undatum/,DL,hao yang,"It provides a simple undatum command that allows to convert, split, calculate frequency, statistics and to validate data in CSV, JSON lines, BSON files"
+https://github.com/ajenhl/tacl-extra,DA,hao yang,tacl-extra provides scripts and libraries that make use of the TACL software
+https://github.com/ajenhl/tacl-extra,DA,hao yang,int-all: Generates extended and reduced intersect results files for every pair of texts in a supplied corpus
+https://github.com/ajenhl/tacl-extra,DA,hao yang,"jitc: Generates an HTML report showing the amount of overlap between a set of works, ignoring those parts that overlap with works in a second set of works"
+https://github.com/ajenhl/tacl-extra,DA,hao yang,lifetime: Generates results data and a report showing the lifetime of n-grams that come into or fall out of use in a group of corpora
+https://github.com/ajenhl/tacl-extra,DA,hao yang,"paternity: Generates a series of results files giving the n-grams in common between one corpus and each work in a second corpus, that are not present in a third corpus"
+https://github.com/ajenhl/tacl-extra,DA,hao yang,The actual work of the scripts is done in library code that can be imported and used by other code
+https://github.com/pypa/sampleproject,DA,hao yang,The file should use UTF-8 encoding and can be written using reStructuredText or markdown with the appropriate key set
+https://github.com/pypa/sampleproject,DA,hao yang,It will be used to generate the project webpage on PyPI and will be displayed as the project
+https://github.com/pypa/sampleproject,DA,hao yang," homepage on common code-hosting services, and should be written for that purpose"
+https://github.com/pypa/sampleproject,DA,hao yang,"Typical contents for this file would include an overview of the project, basic usage examples, etc"
+https://github.com/pypa/sampleproject,DA,hao yang,"Generally, including the project changelog in here is not a good idea, although a simple "
+https://github.com/pypa/sampleproject,DA,hao yang,What's New section for the most recent version may be appropriate
+https://github.com/TeamHG-Memex/MaybeDont,DA,hao yang,MaybeDont is a library that helps avoid downloading pages with duplicate content during crawling
+https://github.com/TeamHG-Memex/MaybeDont,DA,hao yang,"It learns which URL components are important and which are not important during crawling, and tries to predict if the page will be duplicate based on it's URL"
+https://github.com/TeamHG-Memex/MaybeDont,DA,hao yang,"The idea is that if you have a crawler that just follows all links, it might download a lot of duplicate pages: for example, for a forum there might be pages like /view"
+https://github.com/TeamHG-Memex/MaybeDont,DA,hao yang,php?topicId=10 and /view
+https://github.com/TeamHG-Memex/MaybeDont,DA,hao yang,"php?topicId=10&start=0 - the only difference is added start=0, and the content of this pages is likely duplicate"
+https://github.com/TeamHG-Memex/MaybeDont,DA,hao yang,"If we knew that adding start=0 does not change content, then we would avoid downloading the page /view"
+https://github.com/TeamHG-Memex/MaybeDont,DA,hao yang,php?topicId=10&start=0 if we have already fetched /view
+https://github.com/TeamHG-Memex/MaybeDont,DA,hao yang,"php?topicId=10, and thus save time and bandwidth"
+https://github.com/adafruit/Adafruit_CircuitPython_DS18X20,DL,hao yang,CircuitPython driver for Dallas 1-Wire temperature sensor
+https://github.com/rjw57/renormimg,DA,hao yang,This is a simple script to renormalise one or more images from the command line and save them in lossless PNG format
+https://github.com/rjw57/renormimg,DA,hao yang,"The images are read, their maximum and minimum values determined and are re-scaled appropriately"
+https://github.com/mapledyne/skytap,DA,hao yang,Skytap is a set of modules that we use to manage aspects of our Skytap infrastructure
+https://github.com/eventbrite/nose-picker,DA,hao yang,nose-picker is a plugin that picks a subset of your unit tests (in django too!)
+https://github.com/eventbrite/nose-picker,DA,hao yang,This plugin modifies nose's unit test discovery to only pick a (1/N) subset of unit tests to run
+https://github.com/eventbrite/nose-picker,DA,hao yang,"By passing in the --total-processes arguments, you pick the denominator (the N above) which you want to run"
+https://github.com/eventbrite/nose-picker,DA,hao yang,"The --which-process argument controls which part of that subset to run, so if you had 5 subsets you could pick 0, 1, 2, 3, or 4"
+https://github.com/eventbrite/nose-picker,DA,hao yang,"How does it work? Very simple! It hashes the filenames that nose is running through, does a modulo division by N, then sees if this file is ""its"""
+https://github.com/eventbrite/nose-picker,DA,hao yang,"Very simple, but it lets you run multiple of these nose-picker enabled runners in parallel, each running a separate subset of the unit tests!"
+https://github.com/Hall-Erik/ng2django,DA,hao yang,This is a simple Python tool that will convert an HTML file built by Angular2+ to Django Template Language
+https://github.com/Hall-Erik/ng2django,DA,hao yang,This way static files can be made available to an Agnular app that is served up with a Django project
+https://github.com/parryc/doctor_leipzig,DA,hao yang,Doctor Lepizig is a set of additional Markdown syntax items that help with constructing interlinear glosses within Markdown pages
+https://github.com/parryc/doctor_leipzig,DA,hao yang,Please see the README or website for full API
+https://github.com/minsis/pyxwb2,DA,hao yang,An Xwing builder written in python
+https://github.com/minsis/pyxwb2,DA,hao yang,There are two separate libraries to use here: one fro loading XWS
+https://github.com/minsis/pyxwb2,DA,hao yang," import data and one for loading the entire xwing-data pack for usage in an app or web app, etc"
+https://github.com/idiap/fast-transformers,DA,hao yang,Transformers are very successful models that achieve state of the art performance in many natural language tasks
+https://github.com/idiap/fast-transformers,DA,hao yang,"However, it is very difficult to scale them to long sequences due to the quadratic scaling of self-attention"
+https://github.com/idiap/fast-transformers,DA,hao yang,This library was developed for our research on fast attention for transformers
+https://github.com/idiap/fast-transformers,DA,hao yang,You can find a list of our papers in the docs as well as related papers and papers that we have implemented
+https://github.com/Kozea/wdb,DA,hao yang,wdb is a full featured web debugger based on a client-server architecture
+https://github.com/Kozea/wdb,DA,hao yang,The wdb server which is responsible of managing debugging instances along with browser connections (through websockets) is based on Tornado
+https://github.com/Kozea/wdb,DA,hao yang,"The wdb clients allow step by step debugging, in-program python code execution, code edition (based on CodeMirror) setting breakpoints"
+https://github.com/Kozea/wdb,DA,hao yang,"Due to this architecture, all of this is fully compatible with multithread and multiprocess programs"
+https://github.com/Kozea/wdb,DA,hao yang,wdb works with python 2
+https://github.com/Kozea/wdb,DA,hao yang,"Even better, it is possible to debug a python 2 program with a wdb "
+https://github.com/Kozea/wdb,DA,hao yang,server running on python 3 and vice-versa or debug a program running on a computer with 
+https://github.com/Kozea/wdb,DA,hao yang,a debugging server running on another computer inside a web page on a third computer
+https://github.com/Kozea/wdb,DA,hao yang,"Even betterer, it is now possible to pause a currently running python process/thread using code injection from the web interface"
+https://github.com/Kozea/wdb,DA,hao yang,(This requires gdb and ptrace enabled)In other words it's a very enhanced version of pdb directly in your browser with nice features
+https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,DA,hao yang,UI Buttons for displayio
+https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,DA,hao yang,This will output the documentation to docs/_build/html
+https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,DA,hao yang,Open the index
+https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,DA,hao yang,html in your browser to view them
+https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,DA,hao yang,It will also (due to -W) error out on any warning like Travis will
+https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,DA,hao yang,This is a good way to locally verify it will pass

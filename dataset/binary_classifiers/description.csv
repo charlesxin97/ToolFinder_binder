@@ -23,7 +23,6 @@ https://github.com/XiaLiPKU/RESCAN,Allen Mao,"Rain streaks can severely degrade 
 https://github.com/ZhouYanzhao/PRM,Allen Mao,The pytorch branch contains:
 https://github.com/ZhouYanzhao/PRM,Allen Mao,the pytorch implementation of Peak Response Mapping (Stimulation and Backprop).
 https://github.com/ZhouYanzhao/PRM,Allen Mao,"the PASCAL-VOC demo (training, inference, and visualization)."
-https://github.com/agile-geoscience/striplog/,Allen Mao,Lithology and stratigraphic logs for wells and outcrop.
 https://github.com/akaszynski/pyansys,Allen Mao,This Python module allows you to:
 https://github.com/akaszynski/pyansys,Allen Mao,"Interactively control an instance of ANSYS v14.5 + using Python on Linux, >=17.0 on Windows."
 https://github.com/akaszynski/pyansys,Allen Mao,Extract data directly from binary ANSYS v14.5+ files and to display or animate them.
@@ -51,7 +50,7 @@ https://github.com/cgre-aachen/gempy,Allen Mao,"We support this effort here with
 https://github.com/cgre-aachen/gempy,Allen Mao,New in GemPy 2.0: Docker image
 https://github.com/cgre-aachen/gempy,Allen Mao,Finally e also provide precompiled Docker images hosted on Docker Hub with all necessary dependencies to get GemPy up and running (except vtk).
 https://github.com/cgre-aachen/gempy,Allen Mao,"ocker is an operating-system-level-visualization software, meaning that we can package a tiny operating system with pre-installed software into a Docker image. This Docker image can then be shared with and run by others, enabling them to use intricate dependencies with just a few commands. For this to work the user needs to have a working Docker installation."
-https://github.com/d3/d3,Allen Mao,"D3 (or D3.js) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTML. D3 combines powerful visualization and interaction techniques with a data-driven approach to DOM manipulation, giving you the full capabilities of modern browsers and the freedom to design the right visual interface for your data."
+https://github.com/d3/d3,Allen Mao,"D3 (or D3.js) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTDL. D3 combines powerful visualization and interaction techniques with a data-driven approach to DOM manipulation, giving you the full capabilities of modern browsers and the freedom to design the right visual interface for your data."
 https://github.com/driftingtides/hyvr,Allen Mao,Introduction
 https://github.com/driftingtides/hyvr,Allen Mao,HyVR: Turning your geofantasy into reality!
 https://github.com/driftingtides/hyvr,Allen Mao,"The Hydrogeological Virtual Reality simulation package (HyVR) is a Python module that helps researchers and practitioners generate subsurface models with multiple scales of heterogeneity that are based on geological concepts. The simulation outputs can then be used to explore groundwater flow and solute transport behaviour. This is facilitated by HyVR outputs in common flow simulation packages' input formats. As each site is unique, HyVR has been designed that users can take the code and extend it to suit their particular simulation needs."
@@ -161,20 +160,20 @@ https://github.com/joferkington/mplstereonet,Allen Mao,"By default, a modified K
 https://github.com/joferkington/mplstereonet,Allen Mao,mplstereonet also includes a number of utilities to parse structural measurements in either quadrant or azimuth form such that they follow the right-hand-rule.
 https://github.com/jupyter-widgets/ipyleaflet,Allen Mao,A Jupyter / Leaflet bridge enabling interactive maps in the Jupyter notebook.
 https://github.com/jwass/mplleaflet,Allen Mao,mplleaflet
-https://github.com/jwass/mplleaflet,Allen Mao,"mplleaflet is a Python library that converts a matplotlib plot into a webpage containing a pannable, zoomable Leaflet map. It can also embed the Leaflet map in an IPython notebook. The goal of mplleaflet is to enable use of Python and matplotlib for visualizing geographic data on slippy maps without having to write any Javascript or HTML. You also don't need to worry about choosing the base map content i.e., coastlines, roads, etc."
+https://github.com/jwass/mplleaflet,Allen Mao,"mplleaflet is a Python library that converts a matplotlib plot into a webpage containing a pannable, zoomable Leaflet map. It can also embed the Leaflet map in an IPython notebook. The goal of mplleaflet is to enable use of Python and matplotlib for visualizing geographic data on slippy maps without having to write any Javascript or HTDL. You also don't need to worry about choosing the base map content i.e., coastlines, roads, etc."
 https://github.com/jwass/mplleaflet,Allen Mao,"Normally, displaying data as longitude, latitude will cause a cartographer to cry. That's totally fine with mplleaflet, Leaflet will project your data properly."
 https://github.com/jwass/mplleaflet,Allen Mao,"Other Python libraries, basemap and folium, exist to create maps in Python. However mplleaflet allows you to leverage all matplotlib capability without having to set up the background basemap. You can use plot() to style points and lines, and you can also use more complex functions like contour(), quiver(), etc. Furthermore, with mplleaflet you no longer have to worry about setting up the basemap. Displaying continents or roads is determined automatically by the zoom level required to view the physical size of the data. You should use a different library if you need fine control over the basemap, or need a geographic projection other than spherical mercator."
 https://github.com/kinverarity1/lasio/,Allen Mao,"This is a Python 2.7 and 3.3+ package to read and write Log ASCII Standard (LAS) files, used for borehole data such as geophysical, geological, or petrophysical logs. It's compatible with versions 1.2 and 2.0 of the LAS file specification, published by the Canadian Well Logging Society. Support for LAS 3 is being worked on. In principle it is designed to read as many types of LAS files as possible, including ones containing common errors or non-compliant formatting."
 https://github.com/kinverarity1/lasio/,Allen Mao,"Depending on your particular application you may also want to check out striplog for stratigraphic/lithological data, or welly for dealing with data at the well level. lasio is primarily for reading & writing LAS files."
 https://github.com/kinverarity1/lasio/,Allen Mao,"Note this is not a package for reading LiDAR data (also called ""LAS files"")"
 https://github.com/kosmtik/kosmtik,Allen Mao,Very lite but extendable mapping framework to create Mapnik ready maps with OpenStreetMap data (and more).
-https://github.com/kosmtik/kosmtik,Allen Mao,"For now, only Carto based projects are supported (with .mml or .yml config), but in the future we hope to plug in MapCSS too."
+https://github.com/kosmtik/kosmtik,Allen Mao,"For now, only Carto based projects are supported (with .mDL or .yDL config), but in the future we hope to plug in MapCSS too."
 https://github.com/kosmtik/kosmtik,Allen Mao,Lite
 https://github.com/kosmtik/kosmtik,Allen Mao,Only the core needs:
 https://github.com/kosmtik/kosmtik,Allen Mao,project loading
 https://github.com/kosmtik/kosmtik,Allen Mao,local configuration management
 https://github.com/kosmtik/kosmtik,Allen Mao,tiles server for live feedback when coding
-https://github.com/kosmtik/kosmtik,Allen Mao,"exports to common formats (Mapnik XML, PNG…)"
+https://github.com/kosmtik/kosmtik,Allen Mao,"exports to common formats (Mapnik XDL, PNG??"
 https://github.com/kosmtik/kosmtik,Allen Mao,hooks everywhere to make easy to extend it with plugins
 https://github.com/mapbox/geojson-vt,Allen Mao,"A highly efficient JavaScript library for slicing GeoJSON data into vector tiles on the fly, primarily designed to enable rendering and interacting with large geospatial datasets on the browser side (without a server)."
 https://github.com/mapbox/geojson-vt,Allen Mao,"Created to power GeoJSON in Mapbox GL JS, but can be useful in other visualization platforms like Leaflet and d3, as well as Node.js server applications."
@@ -185,7 +184,7 @@ https://github.com/mapbox/rasterio,Allen Mao,Rasterio reads and writes geospatia
 https://github.com/mapbox/rasterio,Allen Mao,"Geographic information systems use GeoTIFF and other formats to organize and store gridded, or raster, datasets. Rasterio reads and writes these formats and provides a Python API based on N-D arrays."
 https://github.com/mapbox/rasterio,Allen Mao,"Rasterio 1.0.x works with Python versions 2.7.x and 3.5.0 through 3.7.x, and GDAL versions 1.11.x through 2.4.x. Official binary packages for Linux and Mac OS X are available on PyPI. Unofficial binary packages for Windows are available through other channels."
 https://github.com/mapbox/rasterio,Allen Mao,Rasterio 1.0.x is not compatible with GDAL versions 3.0.0 or greater.
-https://github.com/mapbox/tilelive-mapnik,Allen Mao,Renderer backend for tilelive.js that uses node-mapnik to render tiles and grids from a Mapnik XML file. tilelive-mapnik implements the Tilesource API.
+https://github.com/mapbox/tilelive-mapnik,Allen Mao,Renderer backend for tilelive.js that uses node-mapnik to render tiles and grids from a Mapnik XDL file. tilelive-mapnik implements the Tilesource API.
 https://github.com/mapbox/tippecanoe,Allen Mao,"Builds vector tilesets from large (or small) collections of GeoJSON, Geobuf, or CSV features, like these."
 https://github.com/mapbox/tippecanoe,Allen Mao,Intent
 https://github.com/mapbox/tippecanoe,Allen Mao,"The goal of Tippecanoe is to enable making a scale-independent view of your data, so that at any level from the entire world to a single building, you can see the density and texture of the data rather than a simplification from dropping supposedly unimportant features or clustering or aggregating them."
@@ -256,7 +255,7 @@ https://github.com/ungarj/tilematrix,Allen Mao,Tilematrix handles geographic web
 https://github.com/ungarj/tilematrix,Allen Mao,"The module is designed to translate between tile indices (zoom, row, column) and map coordinates (e.g. latitute, longitude)."
 https://github.com/ungarj/tilematrix,Allen Mao,Tilematrix supports metatiling and tile buffers. Furthermore it makes heavy use of shapely and it can also generate Affine objects per tile which facilitates working with rasterio for tile based data reading and writing.
 https://github.com/ungarj/tilematrix,Allen Mao,"It is very similar to mercantile but besides of supporting spherical mercator tile pyramids, it also supports geodetic (WGS84) tile pyramids."
-https://github.com/vuejs/vue,Allen Mao,"Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. It is designed from the ground up to be incrementally adoptable, and can easily scale between a library and a framework depending on different use cases. It consists of an approachable core library that focuses on the view layer only, and an ecosystem of supporting libraries that helps you tackle complexity in large Single-Page Applications."
+https://github.com/vuejs/vue,Allen Mao,"Vue (pronounced /vju?/, like view) is a progressive framework for building user interfaces. It is designed from the ground up to be incrementally adoptable, and can easily scale between a library and a framework depending on different use cases. It consists of an approachable core library that focuses on the view layer only, and an ecosystem of supporting libraries that helps you tackle complexity in large Single-Page Applications."
 https://github.com/whimian/pyGeoPressure,Allen Mao,A Python package for pore pressure prediction using well log data and seismic velocity data.
 https://github.com/whimian/pyGeoPressure,Allen Mao,Overburden (or Lithostatic) Pressure Calculation
 https://github.com/whimian/pyGeoPressure,Allen Mao,Eaton's method and Parameter Optimization
@@ -270,7 +269,7 @@ https://github.com/wuhuikai/DeepGuidedFilter,Allen Mao,"Given a reference image 
 https://github.com/yuhuayc/da-faster-rcnn,Allen Mao,"This is the implementation of our CVPR 2018 work 'Domain Adaptive Faster R-CNN for Object Detection in the Wild'. The aim is to improve the cross-domain robustness of object detection, in the screnario where training and test data are drawn from different distributions. The original paper can be found here."
 https://github.com/yulunzhang/RDN,Allen Mao,This repository is for RDN introduced in the following paper
 https://github.com/yulunzhang/RDN,Allen Mao,"The code is built on EDSR (Torch) and tested on Ubuntu 14.04 environment (Torch7, CUDA8.0, cuDNN5.1) with Titan X/1080Ti/Xp GPUs."
-https://github.com/yulunzhang/RDN,Allen Mao,"A very deep convolutional neural network (CNN) has recently achieved great success for image super-resolution (SR) and offered hierarchical features as well. However, most deep CNN based SR models do not make full use of the hierarchical features from the original low-resolution (LR) images, thereby achieving relatively-low performance. In this paper, we propose a novel residual dense network (RDN) to address this problem in image SR. We fully exploit the hierarchical features from all the convolutional layers. Speciﬁcally, we propose residual dense block (RDB) to extract abundant local features via dense connected convolutional layers. RDB further allows direct connections from the state of preceding RDB to all the layers of current RDB, leading to a contiguous memory (CM) mechanism. Local feature fusion in RDB is then used to adaptively learn more effective features from preceding and current local features and stabilizes the training of wider network. After fully obtaining dense local features, we use global feature fusion to jointly and adaptively learn global hierarchical features in a holistic way. Experiments on benchmark datasets with different degradation models show that our RDN achieves favorable performance against state-of-the-art methods."
+https://github.com/yulunzhang/RDN,Allen Mao,"A very deep convolutional neural network (CNN) has recently achieved great success for image super-resolution (SR) and offered hierarchical features as well. However, most deep CNN based SR models do not make full use of the hierarchical features from the original low-resolution (LR) images, thereby achieving relatively-low performance. In this paper, we propose a novel residual dense network (RDN) to address this problem in image SR. We fully exploit the hierarchical features from all the convolutional layers. Speci??ally, we propose residual dense block (RDB) to extract abundant local features via dense connected convolutional layers. RDB further allows direct connections from the state of preceding RDB to all the layers of current RDB, leading to a contiguous memory (CM) mechanism. Local feature fusion in RDB is then used to adaptively learn more effective features from preceding and current local features and stabilizes the training of wider network. After fully obtaining dense local features, we use global feature fusion to jointly and adaptively learn global hierarchical features in a holistic way. Experiments on benchmark datasets with different degradation models show that our RDN achieves favorable performance against state-of-the-art methods."
 https://github.com/zhiqiangdon/CU-Net,Allen Mao,"The follwoing figure gives an illustration of naive dense U-Net, stacked U-Nets and coupled U-Nets (CU-Net). The naive dense U-Net and stacked U-Nets have shortcut connections only inside each U-Net. In contrast, the coupled U-Nets also have connections for semantic blocks across U-Nets. The CU-Net is a hybrid of naive dense U-Net and stacked U-Net, integrating the merits of both dense connectivity, intermediate supervisions and multi-stage top-down and bottom-up refinement. The resulted CU-Net could save ~70% parameters of the previous stacked U-Nets but with comparable accuracy."
 https://github.com/zhiqiangdon/CU-Net,Allen Mao,"If we couple each U-Net pair in multiple U-Nets, the coupling connections would have quadratic growth with respect to the U-Net number. To make the model more parameter efficient, we propose the order-K coupling to trim off the long-distance coupling connections."
 https://github.com/zhiqiangdon/CU-Net,Allen Mao,"For simplicity, each dot represents one U-Net. The red and blue lines are the shortcut connections of inside semantic blocks and outside inputs. Order-0 connectivity (Top) strings U-Nets together only by their inputs and outputs, i.e. stacked U-Nets. Order-1 connectivity (Middle) has shortcut connections for adjacent U-Nets. Similarly, order-2 connectivity (Bottom) has shortcut connections for 3 nearby U-Nets."
@@ -280,18 +279,18 @@ https://github.com/cltk/cltk,Rosna Thomas,*   compile analysis-friendly corpora;
 https://github.com/cltk/cltk,Rosna Thomas,*   collect and generate linguistic data;
 https://github.com/cltk/cltk,Rosna Thomas,*   act as a free and open platform for generating scientific research.
 https://github.com/facebookresearch/DensePose,Rosna Thomas,Dense Human Pose Estimation In The Wild
-https://github.com/facebookresearch/DensePose,Rosna Thomas,"Rıza Alp Güler, Natalia Neverova, Iasonas Kokkinos"
+https://github.com/facebookresearch/DensePose,Rosna Thomas,"R?za Alp G?ler, Natalia Neverova, Iasonas Kokkinos"
 https://github.com/facebookresearch/DensePose,Rosna Thomas,Dense human pose estimation aims at mapping all human pixels of an RGB image to the 3D surface of the human body. 
 https://github.com/facebookresearch/DensePose,Rosna Thomas,DensePose-RCNN is implemented in the Detectron framework and is powered by Caffe2.
 https://github.com/facebookresearch/DensePose,Rosna Thomas,"In this repository, we provide the code to train and evaluate DensePose-RCNN. We also provide notebooks to visualize the collected DensePose-COCO dataset and show the correspondences to the SMPL model."
 https://github.com/facebookresearch/ResNeXt,Rosna Thomas,ResNeXt: Aggregated Residual Transformations for Deep Neural Networks
 https://github.com/facebookresearch/ResNeXt,Rosna Thomas,ResNeXt is the foundation of their new SENet architecture (a ResNeXt-152 (64 x 4d) with the Squeeze-and-Excitation module)!
 https://github.com/facebookresearch/ResNeXt,Rosna Thomas,This repository contains a Torch implementation for the ResNeXt algorithm for image classification. The code is based on fb.resnet.torch.
-https://github.com/facebookresearch/ResNeXt,Rosna Thomas,"ResNeXt is a simple, highly modularized network architecture for image classification. Our network is constructed by repeating a building block that aggregates a set of transformations with the same topology. Our simple design results in a homogeneous, multi-branch architecture that has only a few hyper-parameters to set. This strategy exposes a new dimension, which we call “cardinality” (the size of the set of transformations), as an essential factor in addition to the dimensions of depth and width."
+https://github.com/facebookresearch/ResNeXt,Rosna Thomas,"ResNeXt is a simple, highly modularized network architecture for image classification. Our network is constructed by repeating a building block that aggregates a set of transformations with the same topology. Our simple design results in a homogeneous, multi-branch architecture that has only a few hyper-parameters to set. This strategy exposes a new dimension, which we call ??ardinality??(the size of the set of transformations), as an essential factor in addition to the dimensions of depth and width."
 https://github.com/facebookresearch/pyrobot,Rosna Thomas,"PyRobot is a light weight, high-level interface which provides hardware independent APIs for robotic manipulation and navigation. This repository also contains the low-level stack for LoCoBot, a low cost mobile manipulator hardware platform."
 https://github.com/gitbucket/gitbucket,Rosna Thomas,GitBucket is a Git web platform powered by Scala offering:
 https://github.com/gitbucket/gitbucket,Rosna Thomas,"You can try an online demo (ID: root / Pass: root) of GitBucket, and also get the latest information at GitBucket News."
-https://github.com/harismuneer/Ultimate-Facebook-Scraper,Rosna Thomas,🔥 Ultimate Facebook Scrapper
+https://github.com/harismuneer/Ultimate-Facebook-Scraper,Rosna Thomas,?? Ultimate Facebook Scrapper
 https://github.com/harismuneer/Ultimate-Facebook-Scraper,Rosna Thomas,A bot which scrapes almost everything about a facebook user's profile including
 https://github.com/harismuneer/Ultimate-Facebook-Scraper,Rosna Thomas,"The best thing about this scraper is that the data is scraped in an organized format so that it can be used for educational/research purpose by researchers. Moreover, this scraper does not use Facebook's Graph API so there are no rate limiting issues as such. "
 https://github.com/nextflow-io/nextflow,Rosna Thomas,Nextflow is a bioinformatics workflow manager that enables the development of portable and reproducible workflows.
@@ -316,7 +315,7 @@ https://github.com/scikit-learn/scikit-learn,Rosna Thomas,scikit-learn is a Pyth
 https://github.com/scikit-learn/scikit-learn,Rosna Thomas,SciPy and is distributed under the 3-Clause BSD license.
 https://github.com/scikit-learn/scikit-learn,Rosna Thomas,The project was started in 2007 by David Cournapeau as a Google Summer
 https://github.com/scikit-learn/scikit-learn,Rosna Thomas,"of Code project, and since then many volunteers have contributed. See"
-https://github.com/scikit-learn/scikit-learn,Rosna Thomas,the About us &lt;http://scikit-learn.org/dev/about.html#authors&gt;_ page
+https://github.com/scikit-learn/scikit-learn,Rosna Thomas,the About us &lt;http://scikit-learn.org/dev/about.htDL#authors&gt;_ page
 https://github.com/scikit-learn/scikit-learn,Rosna Thomas,for a list of core contributors.
 https://github.com/scikit-learn/scikit-learn,Rosna Thomas,It is currently maintained by a team of volunteers.
 https://github.com/scikit-learn/scikit-learn,Rosna Thomas,Website: http://scikit-learn.org
@@ -330,8 +329,176 @@ https://github.com/tensorflow/magenta,Rosna Thomas,these models.  Magenta was st
 https://github.com/tensorflow/magenta,Rosna Thomas,"from the Google Brain team,"
 https://github.com/tensorflow/magenta,Rosna Thomas,but many others have contributed significantly to the project. We use
 https://github.com/tensorflow/magenta,Rosna Thomas,TensorFlow and release our models and
-https://github.com/tensorflow/magenta,Rosna Thomas,tools in open source on this GitHub.  If you’d like to learn more
+https://github.com/tensorflow/magenta,Rosna Thomas,tools in open source on this GitHub.  If you?? like to learn more
 https://github.com/tensorflow/magenta,Rosna Thomas,"about Magenta, check out our blog,"
 https://github.com/tensorflow/magenta,Rosna Thomas,where we post technical details.  You can also join our discussion
 https://github.com/tensorflow/magenta,Rosna Thomas,group.
 https://github.com/tensorflow/magenta,Rosna Thomas,"This is the home for our Python TensorFlow library. To use our models in the browser with TensorFlow.js, head to the Magenta.js repository."
+https://github.com/OCA/purchase-workflow/tree/12.0/procurement_purchase_no_grouping,hao yang,This module allows to not group generated purchase orders from procurements
+https://github.com/OCA/purchase-workflow/tree/12.0/procurement_purchase_no_grouping,hao yang,The grouping behaviour can be configurable at product category level
+https://github.com/OCA/purchase-workflow/tree/12.0/product_form_purchase_link,hao yang,Add a button on product forms to access Purchase Lines
+https://github.com/OCA/purchase-workflow/tree/12.0/product_supplier_code_purchase,hao yang,This module adds to the purchase order line the supplier code defined in the product
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_allowed_product,hao yang,"This module adds a restriction in purchase and supplier invoices that has the mark ""Order and invoice only supplied products"" "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_allowed_product,hao yang,checked for allowing to select only products that can be supplied by the defined vendor
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_allowed_product,hao yang,"The restriction can be set by default for each partner, and it's propagated to their supplier invoices and purchases, "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_allowed_product,hao yang,but it can be changed for each invoice and purchase order if you want
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_analytic_global,hao yang,This module adds an analytic account on the purchases that is applied on all the lines
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_blanket_order,hao yang,A purchase blanket order is a pre-agreement to purchase a certain number of quantities of products at a specific price
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_blanket_order,hao yang,"From a confirmed blanket order, the users can create new purchase orders at such price, "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_blanket_order,hao yang,until the blanket order expires due to reaching the validity date
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_commercial_partner,hao yang,This module adds a related stored field Commercial Supplier on purchase orders
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_commercial_partner,hao yang,It is similar to the native field Commercial Partner on invoices
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_commercial_partner,hao yang,This module is the twin brother of the OCA module sale_commercial_partner located in the sale-workflow project
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_date_planned_manual,hao yang,This module makes the system to always respect the planned (or scheduled) date set by the user when creating a Purchase Order
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_date_planned_manual,hao yang,"Additionally, this module modifies the PO views and sets in red the lines that "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_date_planned_manual,hao yang,are predicted to arrive late compared to the scheduled date and vendor lead time
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_default_terms_conditions,hao yang,This module allows purchase default terms & conditions
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_delivery_split_date,hao yang,"When this module is installed, each Purchase Order you confirm will generate one Incoming "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_delivery_split_date,hao yang,Shipment for each schedule date indicated in the Purchase Order Lines
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_delivery_split_date,hao yang,"Once the Purchase Order has been confirmed, subsequent changes made to the scheduled dates in the PO lines "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_delivery_split_date,hao yang,"will produce a reorganization of the corresponding stock moves in the Incoming Shipments,"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_delivery_split_date,hao yang," creating/deleting new Incoming Shipments when needed, to ensure that each "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_delivery_split_date,hao yang,Incoming Shipment contains moves to be received in the same date
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_delivery_split_date,hao yang,"This module is also designed for extensibility, so that you can define in other modules new criteria to split deliveries"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_deposit,hao yang,This module allow purchase order to register deposit similar to that in sales order
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_discount,hao yang,This module allows to define a discount per line in the purchase orders
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_discount,hao yang,"This discount can be also negative, interpreting it as an increment"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_discount,hao yang,It also modifies the purchase order report to include the discount field in it
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_discount,hao yang,"This module allows to input a discount in the supplier info form, and propagate it to purchase order lines"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_exception,hao yang,This module allows you attach several customizable exceptions to your purchase order in a way that you can filter orders by exceptions type and fix them
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_exception,hao yang,"This is especially useful in an scenario for mass purchases order import, because it's likely some orders have errors "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_exception,hao yang,"when you import them (like product not found in Odoo, wrong line format etc"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_force_invoiced,hao yang,"This module adds the possibility for users to force the invoice status of the purchase orders to 'No Bill to Receive', "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_force_invoiced,hao yang,"even when not all the quantities, ordered or delivered, have been invoiced"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_force_invoiced,hao yang,This feature is useful in the following scenario:The supplier disputes the quantities to be 
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_force_invoiced,hao yang,"billed for, after the products have been delivered to her/him, and you agree to reduce the quantity to invoice (without expecting a refund)"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_force_invoiced,hao yang,"When migrating from a previous Odoo version, in some cases there is less quantity billed"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_force_invoiced,hao yang," to what was delivered, and you don't want these old purchase orders to appear in your 'Waiting Bills' list"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_invoice_plan,hao yang,"By standard feature, user can gradually create partial invoices, one by one and in step create invoice the standard call invoice"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_invoice_plan,hao yang,"This module add ability to create invoices based on the predefined invoice plan, either all at once, or one by one"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_invoice_plan,hao yang,"Important This is an alpha version, the data model and design can change at any time without warning"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_invoice_plan,hao yang,"Only for development or testing purpose, do not use in production"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_invoice_plan,hao yang,More details on development status
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,hao yang,The functionality of this module is to provide a way to manage your purchase costs more easily than the official module
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,hao yang, (stock_landed_cost) and allow to distribute them with a lot of methods
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,hao yang,Possibility to assign landed cost afterwards in a separate screen
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,hao yang,Management of expense types with preconfigured calculation methods
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,hao yang,"Distribution of costs based on weight, volume, product price, etc"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,hao yang,Types marked as default are automatically added to each new purchase distribution
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,hao yang,Management orders shopping expenses associated with one or more entry slips
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,hao yang,Upgrade cost price of products based on the costs
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_landed_cost,hao yang,Currently only one type of upgrade cost is available: direct upgrade
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_last_price_info,hao yang,This module adds the last purchase info of the product
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_line_procurement_group,hao yang,This module changes the way procurements generate purchase order lines
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_line_procurement_group,hao yang,"If some procurements are run for the same products and locations, but have different procurement groups, "
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_line_procurement_group,hao yang,these won't be merged in the same purchase order line and will instead generate a purchase order line per procurement group
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_line_procurement_group,hao yang,Moreover this module ensures that generated stock move won't be merged together if they come from purchase order lines with different procurement groups
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_location_by_line,hao yang,Allows to define a specific destination location on each Purchase Order line
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_location_by_line,hao yang,"When the PO is confirmed, it will generate one Incoming Shipment per combination of destination location and expected date indicated in the Purchase Order Lines"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_location_by_line,hao yang,"This module is used to send the products to different locations, that may not be children of the default location of the same PO picking type"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_location_by_line,hao yang,Not be confused
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_manual_delivery,hao yang,The goal of this module is to allow the manual creation of incoming shipments
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_manual_delivery,hao yang,"When installed, a purchase order won't impact directly the stock"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_manual_delivery,hao yang,It will not create the pickings upon order confirmation
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_manual_delivery,hao yang,It allows the reception and the impact on stock to be done manually when needed
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_manual_delivery,hao yang,The goal is to be used when a supplier does not confirm the full order at once
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_manual_delivery,hao yang,"As the supplier confirms the different purchase order lines, the user can manually create the incoming shipments for those specific lines"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_minimum_amount,hao yang,This module allows you to establish and automate a specific Purchase Order Approval Block Reason in the system: the 'Minimum Purchase Order Amount per Vendor'
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_open_qty,hao yang,This module allows purchase users to identify what are the purchase orders that currently have quantities pending to invoice or to receive
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_analytic_search,hao yang,"Organizations often require to quickly find the purchase orders associated to an analytic account, searching by it's code, name or project/account manager"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_analytic_search,hao yang,This module introduces the possibility to search purchase orders by analytic account
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_analytic_search,hao yang,It also introduces a new menu entry in Purchasing to list purchase order lines
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approval_block,hao yang,This module allows you to block the approval of an RFQ when an Approval Block Reason has been provided
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approval_block,hao yang,Upon confirmation of an RFQ the orders will be waiting for approval by a Manager
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approved,hao yang,This module extends the functionality of purchases adding a new state Approved in purchase orders before the Purchase Order state
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approved,hao yang,Additionally add the possibility to set back to draft a purchase order in all the states previous to Purchase Order
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approved,hao yang,You cannot modify the purchase order
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approved,hao yang,"However, you can go back to draft and pass through the workflow again"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approved,hao yang,The incoming shipments are not created
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_approved,hao yang,"You can create them by clicking the Convert to Purchase Order button, also moving to state Purchase Order"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_archive,hao yang,"On a system with a high volume of purchases, the number of purchase orders displayed in the list view can become huge"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_archive,hao yang,This module allows to archive Purchase Orders that are in status Locked or Cancelled
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_archive,hao yang,"If a purchase order is archived, it will be hidden from the purchase orders list view"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_archive,hao yang,"This module only depends on module purchase, but it could be used in combination with OCA"
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_archive,hao yang, module 'record_archiver' in order to automatically archive old purchase orders
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_general_discount,hao yang,This module allows to set a general discount in a purchase order
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_general_discount,hao yang,This general discount is applied to each line order
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_order_general_discount,hao yang,You can also set a default general discount on suppliers and configure to wich line field the discount will be applied
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_reception_status,hao yang,This module adds a field Receiption Status on purchase orders
+https://github.com/OCA/purchase-workflow/tree/12.0/purchase_reception_status,hao yang,"On a confirmed purchase order, it can have 3 different values:Nothing Received Partially Receive Fully Received"
+https://github.com/biwin/standalone,hao yang,Standalone lets you access Django shell from your Python modules or to run your django module as a standalone module with access to Django shell
+https://github.com/tpisani/django-thumborize,hao yang,Minimal interface for thumbor imaging service
+https://github.com/jwygoda/django-lgi,hao yang,django-lgi is a python module that interprets HTTP API requests sent to your Django project in Lambda
+https://github.com/fastly/fastly-py,hao yang,fastly-py is available through pip as the fastly package There are three simple scripts 
+https://github.com/fastly/fastly-py,hao yang,provided in /bin that can be used for various stand-alone purge operations
+https://github.com/zuo/unittest_expander,hao yang,"unittest_expander is a Python library that provides flexible and easy-to-use tools to parameterize your unit tests, especially those based on unittest"
+https://github.com/zuo/unittest_expander,hao yang,"The library is compatible with Python 28, and does not depend on any external packages (i, uses only the Python standard library)"
+https://github.com/gpoulter/fablib,hao yang,"""fablib"" is a small collection of helper functions for the Fabric deployment and system administration tool"
+https://github.com/gpoulter/fablib,hao yang,"Further, it is built on top of the cuisine library of Fabric helper functions"
+https://github.com/gpoulter/fablib,hao yang,Warning: This is alpha software
+https://github.com/gpoulter/fablib,hao yang,Anything and everything could change without notice
+https://github.com/gpoulter/fablib,hao yang,"Also, I should probably try get some of these into a state where they can be added to cuisine"
+https://github.com/nstrydom2/anonfile-api,hao yang,This unofficial Python API was created to make uploading and downloading files from Anonfile
+https://github.com/nstrydom2/anonfile-api,hao yang,"com simple, and effective for programming in Python"
+https://github.com/nstrydom2/anonfile-api,hao yang,The goal of the project is to create an intuitive library for anonymous file sharing
+https://github.com/rocktavious/DevToolsLib,hao yang,"Dev Tools Library is a multiplatform tools development api, targeted to help keep you focused on writing the tools and not the connective glue code between packages"
+https://github.com/datacoon/undatum/,hao yang,undatum (pronounced un-da-tum) is a command line data processing tool
+https://github.com/datacoon/undatum/,hao yang,Its goal is to make CLI interaction with huge datasets so easy as possible
+https://github.com/datacoon/undatum/,hao yang,"It provides a simple undatum command that allows to convert, split, calculate frequency, statistics and to validate data in CSV, JSON lines, BSON files"
+https://github.com/ajenhl/tacl-extra,hao yang,tacl-extra provides scripts and libraries that make use of the TACL software
+https://github.com/ajenhl/tacl-extra,hao yang,int-all: Generates extended and reduced intersect results files for every pair of texts in a supplied corpus
+https://github.com/ajenhl/tacl-extra,hao yang,"jitc: Generates an HTML report showing the amount of overlap between a set of works, ignoring those parts that overlap with works in a second set of works"
+https://github.com/ajenhl/tacl-extra,hao yang,lifetime: Generates results data and a report showing the lifetime of n-grams that come into or fall out of use in a group of corpora
+https://github.com/ajenhl/tacl-extra,hao yang,"paternity: Generates a series of results files giving the n-grams in common between one corpus and each work in a second corpus, that are not present in a third corpus"
+https://github.com/ajenhl/tacl-extra,hao yang,The actual work of the scripts is done in library code that can be imported and used by other code
+https://github.com/pypa/sampleproject,hao yang,The file should use UTF-8 encoding and can be written using reStructuredText or markdown with the appropriate key set
+https://github.com/pypa/sampleproject,hao yang,It will be used to generate the project webpage on PyPI and will be displayed as the project
+https://github.com/pypa/sampleproject,hao yang," homepage on common code-hosting services, and should be written for that purpose"
+https://github.com/pypa/sampleproject,hao yang,"Typical contents for this file would include an overview of the project, basic usage examples, etc"
+https://github.com/pypa/sampleproject,hao yang,"Generally, including the project changelog in here is not a good idea, although a simple "
+https://github.com/pypa/sampleproject,hao yang,What's New section for the most recent version may be appropriate
+https://github.com/TeamHG-Memex/MaybeDont,hao yang,MaybeDont is a library that helps avoid downloading pages with duplicate content during crawling
+https://github.com/TeamHG-Memex/MaybeDont,hao yang,"It learns which URL components are important and which are not important during crawling, and tries to predict if the page will be duplicate based on it's URL"
+https://github.com/TeamHG-Memex/MaybeDont,hao yang,"The idea is that if you have a crawler that just follows all links, it might download a lot of duplicate pages: for example, for a forum there might be pages like /view"
+https://github.com/TeamHG-Memex/MaybeDont,hao yang,php?topicId=10 and /view
+https://github.com/TeamHG-Memex/MaybeDont,hao yang,"php?topicId=10&start=0 - the only difference is added start=0, and the content of this pages is likely duplicate"
+https://github.com/TeamHG-Memex/MaybeDont,hao yang,"If we knew that adding start=0 does not change content, then we would avoid downloading the page /view"
+https://github.com/TeamHG-Memex/MaybeDont,hao yang,php?topicId=10&start=0 if we have already fetched /view
+https://github.com/TeamHG-Memex/MaybeDont,hao yang,"php?topicId=10, and thus save time and bandwidth"
+https://github.com/adafruit/Adafruit_CircuitPython_DS18X20,hao yang,CircuitPython driver for Dallas 1-Wire temperature sensor
+https://github.com/rjw57/renormimg,hao yang,This is a simple script to renormalise one or more images from the command line and save them in lossless PNG format
+https://github.com/rjw57/renormimg,hao yang,"The images are read, their maximum and minimum values determined and are re-scaled appropriately"
+https://github.com/mapledyne/skytap,hao yang,Skytap is a set of modules that we use to manage aspects of our Skytap infrastructure
+https://github.com/eventbrite/nose-picker,hao yang,nose-picker is a plugin that picks a subset of your unit tests (in django too!)
+https://github.com/eventbrite/nose-picker,hao yang,This plugin modifies nose's unit test discovery to only pick a (1/N) subset of unit tests to run
+https://github.com/eventbrite/nose-picker,hao yang,"By passing in the --total-processes arguments, you pick the denominator (the N above) which you want to run"
+https://github.com/eventbrite/nose-picker,hao yang,"The --which-process argument controls which part of that subset to run, so if you had 5 subsets you could pick 0, 1, 2, 3, or 4"
+https://github.com/eventbrite/nose-picker,hao yang,"How does it work? Very simple! It hashes the filenames that nose is running through, does a modulo division by N, then sees if this file is ""its"""
+https://github.com/eventbrite/nose-picker,hao yang,"Very simple, but it lets you run multiple of these nose-picker enabled runners in parallel, each running a separate subset of the unit tests!"
+https://github.com/Hall-Erik/ng2django,hao yang,This is a simple Python tool that will convert an HTML file built by Angular2+ to Django Template Language
+https://github.com/Hall-Erik/ng2django,hao yang,This way static files can be made available to an Agnular app that is served up with a Django project
+https://github.com/parryc/doctor_leipzig,hao yang,Doctor Lepizig is a set of additional Markdown syntax items that help with constructing interlinear glosses within Markdown pages
+https://github.com/parryc/doctor_leipzig,hao yang,Please see the README or website for full API
+https://github.com/minsis/pyxwb2,hao yang,An Xwing builder written in python
+https://github.com/minsis/pyxwb2,hao yang,There are two separate libraries to use here: one fro loading XWS
+https://github.com/minsis/pyxwb2,hao yang," import data and one for loading the entire xwing-data pack for usage in an app or web app, etc"
+https://github.com/idiap/fast-transformers,hao yang,Transformers are very successful models that achieve state of the art performance in many natural language tasks
+https://github.com/idiap/fast-transformers,hao yang,"However, it is very difficult to scale them to long sequences due to the quadratic scaling of self-attention"
+https://github.com/idiap/fast-transformers,hao yang,This library was developed for our research on fast attention for transformers
+https://github.com/idiap/fast-transformers,hao yang,You can find a list of our papers in the docs as well as related papers and papers that we have implemented
+https://github.com/Kozea/wdb,hao yang,wdb is a full featured web debugger based on a client-server architecture
+https://github.com/Kozea/wdb,hao yang,The wdb server which is responsible of managing debugging instances along with browser connections (through websockets) is based on Tornado
+https://github.com/Kozea/wdb,hao yang,"The wdb clients allow step by step debugging, in-program python code execution, code edition (based on CodeMirror) setting breakpoints"
+https://github.com/Kozea/wdb,hao yang,"Due to this architecture, all of this is fully compatible with multithread and multiprocess programs"
+https://github.com/Kozea/wdb,hao yang,wdb works with python 2
+https://github.com/Kozea/wdb,hao yang,"Even better, it is possible to debug a python 2 program with a wdb "
+https://github.com/Kozea/wdb,hao yang,server running on python 3 and vice-versa or debug a program running on a computer with 
+https://github.com/Kozea/wdb,hao yang,a debugging server running on another computer inside a web page on a third computer
+https://github.com/Kozea/wdb,hao yang,"Even betterer, it is now possible to pause a currently running python process/thread using code injection from the web interface"
+https://github.com/Kozea/wdb,hao yang,(This requires gdb and ptrace enabled)In other words it's a very enhanced version of pdb directly in your browser with nice features
+https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,hao yang,UI Buttons for displayio
+https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,hao yang,This will output the documentation to docs/_build/html
+https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,hao yang,Open the index
+https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,hao yang,html in your browser to view them
+https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,hao yang,It will also (due to -W) error out on any warning like Travis will
+https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,hao yang,This is a good way to locally verify it will pass
