@@ -20,8 +20,19 @@ Then use pip to install the packages
 ```
 pip install -r requirements.txt
 ```
+2. Local (make sure you have python 3.6.x or 3.7.x)
+Download Zip or clone my reporsitory.
+```
+git@github.com:alvinzhou66/classification-of-scientific-software.git
+```
+Move into the Repo and install the packages using the requirements.txt file.
+```
+pip install -r requirements.txt
+```
+## Usage
+An interactive Bokeh visualization which can handle URL inputs(any URL with description, don't need to be .md file), return function prediction result. Also, visualize our training result and compaire with SOMEF.
 
-2. Docker.  
+1. Docker.  
 Install Docker first.
 In the directory which has <i>our Dockerfile</i>, build the docker container:
 ```
@@ -31,8 +42,5 @@ Run it
 ```
 docker run -ti --name capturing pulkit/capturing:1.0
 ```
-Space holder
-## Usage
-An interactive Bokeh visualization which can handle URL inputs(any URL with description, don't need to be .md file), return function prediction result. Also, visualize our training result and compaire with SOMEF.
 
 [Placeholder for steps to use the interface]
