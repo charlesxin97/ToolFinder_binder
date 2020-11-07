@@ -502,3 +502,45 @@ https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,DA,hao yang,Op
 https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,DA,hao yang,html in your browser to view them
 https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,DA,hao yang,It will also (due to -W) error out on any warning like Travis will
 https://github.com/adafruit/Adafruit_CircuitPython_Display_Button,DA,hao yang,This is a good way to locally verify it will pass
+https://github.com/keras-team/keras/blob/master/README.md,DL,xihao zhou,"Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow."
+https://github.com/keras-team/keras/blob/master/README.md,DL,xihao zhou,"Multi-backend Keras has been discontinued. At this time, we recommend that Keras users who use multi-backend Keras with the TensorFlow backend switch to keras TensorFlow 2.0."
+https://github.com/pytorch/pytorch,DL,xihao zhou,Tensor computation (like NumPy) with strong GPU acceleration
+https://github.com/pytorch/pytorch,DL,xihao zhou,Deep neural networks built on a tape-based autograd system
+https://github.com/pytorch/pytorch,DL,xihao zhou,A GPU-Ready Tensor Library
+https://github.com/pytorch/pytorch,DL,xihao zhou,"If you use NumPy, then you have used Tensors (a.k.a. ndarray)."
+https://github.com/pytorch/pytorch,DL,xihao zhou,PyTorch provides Tensors that can live either on the CPU or the GPU and accelerates the computation by a huge amount.
+https://github.com/pytorch/pytorch,DL,xihao zhou,"We provide a wide variety of tensor routines to accelerate and fit your scientific computation needs such as slicing, indexing, math operations, linear algebra, reductions. And they are fast!"
+https://github.com/pytorch/pytorch,DL,xihao zhou,PyTorch has a unique way of building neural networks: using and replaying a tape recorder.
+https://github.com/pytorch/pytorch,DL,xihao zhou,"Most frameworks such as TensorFlow, Theano, Caffe, and CNTK have a static view of the world. One has to build a neural network and reuse the same structure again and again. Changing the way the network behaves means that one has to start from scratch."
+https://github.com/pytorch/pytorch,DL,xihao zhou,"With PyTorch, we use a technique called reverse-mode auto-differentiation, which allows you to change the way your network behaves arbitrarily with zero lag or overhead. Our inspiration comes from several research papers on this topic, as well as current and past work such as orch-autograd, utograd, hainer, etc."
+https://github.com/pytorch/pytorch,DL,xihao zhou,"While this technique is not unique to PyTorch, it's one of the fastest implementations of it to date. You get the best of speed and flexibility for your crazy research."
+https://github.com/pytorch/pytorch,DL,xihao zhou,"PyTorch has minimal framework overhead. We integrate acceleration libraries such as ntel MKL nd NVIDIA (cuDNN, CCL) to maximize speed. At the core, its CPU and GPU Tensor and neural network backends (TH, THC, THNN, THCUNN) are mature and have been tested for years."
+https://github.com/pytorch/pytorch,DL,xihao zhou,"Hence, PyTorch is quite fast ?whether you run small or large neural networks."
+https://github.com/pytorch/pytorch,DL,xihao zhou,The memory usage in PyTorch is extremely efficient compared to Torch or some of the alternatives. We've written custom memory allocators for the GPU to make sure that your deep learning models are maximally memory efficient. This enables you to train bigger deep learning models than before.
+https://github.com/pytorch/pytorch,DL,xihao zhou,"Writing new neural network modules, or interfacing with PyTorch's Tensor API was designed to be straightforward and with minimal abstractions."
+https://github.com/pytorch/pytorch,DL,xihao zhou,You can write new neural network layers in Python using the torch APIr your favorite NumPy-based libraries such as SciPy.
+https://github.com/pytorch/pytorch,DL,xihao zhou,"If you want to write your layers in C/C++, we provide a convenient extension API that is efficient and with minimal boilerplate. No wrapper code needs to be written. You can see tutorial her end n example here."
+https://github.com/pytorch/pytorch,DL,xihao zhou,"PyTorch is designed to be intuitive, linear in thought, and easy to use. When you execute a line of code, it gets executed. There isn't an asynchronous view of the world. When you drop into a debugger or receive error messages and stack traces, understanding them is straightforward. The stack trace points to exactly where your code was defined. We hope you never spend hours debugging your code because of bad stack traces or asynchronous and opaque execution engines."
+https://github.com/pytorch/pytorch,DL,xihao zhou,"a Tensor library like NumPy, with strong GPU support"
+https://github.com/pytorch/pytorch,DL,xihao zhou,a tape-based automatic differentiation library that supports all differentiable Tensor operations in torch
+https://github.com/pytorch/pytorch,DL,xihao zhou,a compilation stack (TorchScript) to create serializable and optimizable models from PyTorch code
+https://github.com/pytorch/pytorch,DL,xihao zhou,a neural networks library deeply integrated with autograd designed for maximum flexibility
+https://github.com/pytorch/pytorch,DL,xihao zhou,"Python multiprocessing, but with magical memory sharing of torch Tensors across processes. Useful for data loading and Hogwild training"
+https://github.com/pytorch/pytorch,DL,xihao zhou,DataLoader and other utility functions for convenience
+https://github.com/rusty1s/pytorch_geometric,DL,xihao zhou,PyTorch Geometric PyG) is a geometric deep learning extension library for pyTorch.
+https://github.com/rusty2s/pytorch_geometric,DL,xihao zhou,"It consists of various methods for deep learning on graphs and other irregular structures, also known as eometric deep learning, from a variety of published papers."
+https://github.com/rusty3s/pytorch_geometric,DL,xihao zhou,"In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds. Click here to join our Slack community!"
+https://github.com/rusty4s/pytorch_geometric,DL,xihao zhou,PyTorch Geometric makes implementing Graph Neural Networks a breeze (see ere or the accompanying tutorial)
+https://github.com/rusty5s/pytorch_geometric,DL,xihao zhou,SplineConv rom Feyt al.:plineCNN: Fast Geometric Deep Learning with Continuous B-Spline Kernels?
+https://github.com/rusty6s/pytorch_geometric,DL,xihao zhou,GCNConvrom Kipf and Welling: emi-Supervised Classification with Graph Convolutional Networks?
+https://github.com/rusty7s/pytorch_geometric,DL,xihao zhou,GCN2Convrom Chent al.:imple and Deep Graph Convolutional Networks
+https://github.com/rusty8s/pytorch_geometric,DL,xihao zhou,ChebConvrom Defferrardt al.:onvolutional Neural Networks on Graphs with Fast Localized Spectral Filtering
+https://github.com/rusty9s/pytorch_geometric,DL,xihao zhou,Neural Message Passing for Quantum Chemistry
+https://github.com/rusty10s/pytorch_geometric,DL,xihao zhou,CGConvrom Xie and Grossman:rystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties
+https://github.com/rusty11s/pytorch_geometric,DL,xihao zhou,ECConvrom Simonovsky and Komodakis: edge-Conditioned Convolution on Graphs
+https://github.com/rusty12s/pytorch_geometric,DL,xihao zhou,TransformerConv rom Shi t al.:asked Label Prediction: Unified Message Passing Model for Semi-Supervised Classification?
+https://github.com/rusty13s/pytorch_geometric,DL,xihao zhou,SAGEConvrom Hamiltont al.:nductive Representation Learning on Large Graphs?
+https://github.com/rusty14s/pytorch_geometric,DL,xihao zhou,"GraphConvrom,.g., Morrist al.:eisfeiler and Leman Go Neural: Higher-order Graph Neural Networks"
+https://github.com/rusty15s/pytorch_geometric,DL,xihao zhou,GatedGraphConvrom Lit al.:ated Graph Sequence Neural Networks
+https://github.com/rusty16s/pytorch_geometric,DL,xihao zhou,"Head over to our ocumentation o find out more about installation, data handling, creation of datasets and a full list of implemented methods, transforms, and datasets."
+https://github.com/rusty17s/pytorch_geometric,DL,xihao zhou,We are motivated to constantly make PyTorch Geometric even better.
