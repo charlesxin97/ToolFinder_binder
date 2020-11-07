@@ -1,7 +1,7 @@
 ## Classification of Scientific Software
  Software Metadata Classification Project, for study purpose at USC | DSCI560.
  
- Team members: Xihao Zhou, Ruohan Gao, Gan Xin, Hao Yang, Yifan Li, Dongsheng Yang
+ <b>Team members</b>: Xihao Zhou, Ruohan Gao, Gan Xin, Hao Yang, Yifan Li, Dongsheng Yang
 ## Documentation
 [Placeholder for documentation link(github.page)]
 ## Citation and Dataset
