@@ -20,7 +20,7 @@ Then use pip to install the packages
 ```
 pip install -r requirements.txt
 ```
-2. Local (make sure you have python 3.6.x or 3.7.x)
+2. Local (make sure you have python 3.6.x or 3.7.x).
 Download Zip or clone my reporsitory.
 ```
 git@github.com:alvinzhou66/classification-of-scientific-software.git
