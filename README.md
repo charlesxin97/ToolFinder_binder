@@ -34,7 +34,7 @@ pip install -r requirements.txt
 For <b>binary classifiers</b>, just run the 4 ipynb script in "/binary_classifier" folder.
 
 For <b>functional classifier</b>, move to "/functional_classifier" and run des_fuc.ipynb first, then run func_class.ipynb.
-## Usage
+## Usage (interactive visualization)
 An interactive Bokeh visualization which can handle URL inputs(any URL with description, don't need to be .md file), return function prediction result. Also, visualize our training result and compaire with SOMEF.
 
 1. Docker.  
