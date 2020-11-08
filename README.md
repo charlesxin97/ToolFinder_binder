@@ -9,7 +9,7 @@ All datasets we used for this project are in /dataset folder.
 [![DOI](https://zenodo.org/badge/309178983.svg)](https://zenodo.org/badge/latestdoi/309178983)
 
 ## Installation (If you want to retrain our model)
-To run the scripts in the project, you can either use the requirements.txt to setup your environment locally or you can use the dockerfile to create a container locally.  
+To run the scripts in the project, you can either use the requirements.txt to setup your environment locally or you can manually build the same environment on your local machine.  
 1. Virtual environment(Need python 3.6.x).  
 Firstly create your virtual env and activate it
 ```
@@ -29,6 +29,11 @@ Move into the Repo and install the packages using the requirements.txt file.
 ```
 pip install -r requirements.txt
 ```
+--------------------------------------
+
+For <b>binary classifiers</b>, just run the 4 ipynb script in "/binary_classifier" folder.
+
+For <b>functional classifier</b>, move to "/functional_classifier" and run des_fuc.ipynb first, then run func_class.ipynb.
 ## Usage
 An interactive Bokeh visualization which can handle URL inputs(any URL with description, don't need to be .md file), return function prediction result. Also, visualize our training result and compaire with SOMEF.
 
