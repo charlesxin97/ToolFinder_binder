@@ -36,11 +36,11 @@ An interactive Bokeh visualization which can handle URL inputs(any URL with desc
 Install Docker first.
 In the directory which has <i>our Dockerfile</i>, build the docker container:
 ```
-docker build -t pulkit/capturing:1.0 .
+docker build -t coss
 ```
 Run it
 ```
-docker run -ti --name capturing pulkit/capturing:1.0
+docker run -ti --name coss coss
 ```
 
 [Placeholder for steps to use the interface]
