@@ -46,5 +46,14 @@ For <b>binary classifiers</b>, just run the 4 ipynb script in "/binary_classifie
 For <b>functional classifier</b>, move to "/functional_classifier" and run des_fuc.ipynb first, then run func_class.ipynb.
 ## Usage (interactive visualization)
 An interactive Bokeh visualization which can handle URL inputs(any URL with description, don't need to be .md file), return function prediction result. Also, visualize our training result and compaire with SOMEF.
-
-[Placeholder for steps to use the interface]
+Firstly you need to go to the directory of visualization locally, and start the bokeh server application.   
+```
+cd visualization
+bokeh serve --show interactive_ui.py
+```
+1. Functional classifier.  
+To use the functional classifier, you need to input the url into the box and click the predict button. Then the result will show in the pie chart, which contains the probabilities of your input project being different type of scientific software. The result may show after several seconds due to crawling the website and the inference of the model.  
+![image](/pie.png) 
+2. Improvement on existing binary classifiers.  
+To check the improvement of the existing classifiers, you need first pick a tab you want. Then the test result will show up as a green line, in addition a red line indicating the previous results will also be displayed.  
+![image](/line.png) 
