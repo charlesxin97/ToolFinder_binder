@@ -1,9 +1,9 @@
-## Classification of Scientific Software
+#ToolFinder
  Software Metadata Classification Project, for study purpose at USC | DSCI560.
  
  <b>Team members</b>: Xihao Zhou, Ruohan Gao, Gan Xin, Hao Yang, Yifan Li, Dongsheng Yang
 ## Documentation
-[Placeholder for documentation link(github.page)]
+https://alvinzhou66.github.io/ToolFinder/
 ## Citation and Dataset
 All datasets we used for this project are in /dataset folder.
 [![DOI](https://zenodo.org/badge/309178983.svg)](https://zenodo.org/badge/latestdoi/309178983)
