@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## ToolFinder
 
-You can use the [editor on GitHub](https://github.com/alvinzhou66/ToolFinder/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<b>Authors</b>: 
+Xihao Zhou: xihaozho@usc.edu, CV: https://drive.google.com/file/d/1yEpapHdKz51QFCS7keB8RNbyjCUqYrxw/view  
+Ruohan Gao: ruohanga@usc.edu, CV: https://drive.google.com/file/d/1ED3TDFpMZiveP1AULPJFEyZnrXP03x0l/view  
+Gan Xin: gxin@usc.edu, CV: https://drive.google.com/file/d/18wP5TXjkcd-wG8QZAHv4ryXjECM4f_Fd/view  
+Hao Yang:   
+Yifan Li: yli04705@usc.edu, CV: https://drive.google.com/file/d/1GWmU-6UdR4Eowt9dZ0PV4nmUjKzM4hXh/view  
+Dongsheng Yang: dongshen@usc.edu, CV: https://drive.google.com/file/d/1GklAEbLkHt-TFZnA_3y7p3dS2MJqTZUg/view
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The purpose of ToolFinder is to automatically analysis the functions and metadata from online .md files or description websites of scientific software. Thanks to ToolFinder, now scientific researchers and software developers can save a lot of time on reading descriptions and installation steps.
 
-### Markdown
+ToolFinder can work with any URL input, this URL doesn't have to be a README.md, any URL with text should be able to use ToolFinder for classification.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+For any problems when using ToolFinder, please open an issue on our [GitHub](https://github.com/alvinzhou66/ToolFinder/issues) repository.
+## Features
 
-```markdown
-Syntax highlighted code block
+For any given URL link, we can extract the following information:
+- <b>Function</b>: Now this project basically faces to data science researchers so it ONLY has "DA-data analysis", "DM-data management" and "DL-deep learning" 3 classes. For any URL input, you will have the predicted probability for these 3 classes.
+- <b>Description</b>: All sentences about the description of what this software does.
+- <b>Citation</b>: All sentences related to the preferred citation as the authors have stated.
+- <b>Installation</b>: All sentences about the installation steps.
+- <b>Invocation</b>: All sentences related to the execution commands for this software.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alvinzhou66/ToolFinder/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Used Technologies and Standards
+# Scikit Learn
+Scikit-learn (formerly scikits.learn and also known as sklearn) is a free software machine learning library for the Python programming language. It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy.
+# Pytorch
+PyTorch is an open source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing, primarily developed by Facebook's AI Research lab (FAIR). It is free and open-source software released under the Modified BSD license. Although the Python interface is more polished and the primary focus of development, PyTorch also has a C++ interface.
+# Beautifulsoup
+Beautiful Soup is a Python package for parsing HTML and XML documents (including having malformed markup, i.e. non-closed tags, so named after tag soup). It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping.
