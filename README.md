@@ -1,4 +1,4 @@
-# ToolFinder
+# ToolFinder [![DOI](https://zenodo.org/badge/309178983.svg)](https://zenodo.org/badge/latestdoi/309178983)
  Software Metadata Classification Project, for study purpose at USC | DSCI560.
  
  <b>Team members</b>: Xihao Zhou, Ruohan Gao, Gan Xin, Hao Yang, Yifan Li, Dongsheng Yang
@@ -6,7 +6,7 @@
 https://alvinzhou66.github.io/ToolFinder/
 ## Citation and Dataset
 All datasets we used for this project are in /dataset folder.
-[![DOI](https://zenodo.org/badge/309178983.svg)](https://zenodo.org/badge/latestdoi/309178983)
+
 
 ## Installation (If you want to retrain our model)
 To run the scripts in the project, you can either use the requirements.txt to setup your environment locally or you can manually build the same environment on your local machine, or use <i>our Dockerfile</i> to build a docker container.
