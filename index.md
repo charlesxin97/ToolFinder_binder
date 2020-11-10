@@ -15,14 +15,17 @@ The purpose of ToolFinder is to automatically analysis the functions and metadat
 ToolFinder can work with any URL input, this URL doesn't have to be a README.md, any URL with text should be able to use ToolFinder for classification.
 
 For any problems when using ToolFinder, please open an issue on our [GitHub](https://github.com/alvinzhou66/ToolFinder/issues) repository.
-## Features
 
+## Features
 For any given URL link, we can extract the following information:
 - <b>Function</b>: Now this project basically faces to data science researchers so it ONLY has "DA-data analysis", "DM-data management" and "DL-deep learning" 3 classes. For any URL input, you will have the predicted probability for these 3 classes.
 - <b>Description</b>: All sentences about the description of what this software does.
 - <b>Citation</b>: All sentences related to the preferred citation as the authors have stated.
 - <b>Installation</b>: All sentences about the installation steps.
 - <b>Invocation</b>: All sentences related to the execution commands for this software.
+
+## Installation and usage
+See our GitHub [README.md](https://github.com/alvinzhou66/ToolFinder/blob/main/README.md).
 
 ## Used Technologies and Standards
 ### Scikit Learn
