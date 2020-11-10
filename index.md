@@ -2,12 +2,12 @@
 
 <b>Authors</b>:
 
-Xihao Zhou: xihaozho@usc.edu, CV: https://drive.google.com/file/d/1yEpapHdKz51QFCS7keB8RNbyjCUqYrxw/view  
-Ruohan Gao: ruohanga@usc.edu, CV: https://drive.google.com/file/d/1ED3TDFpMZiveP1AULPJFEyZnrXP03x0l/view  
-Gan Xin: gxin@usc.edu, CV: https://drive.google.com/file/d/18wP5TXjkcd-wG8QZAHv4ryXjECM4f_Fd/view  
-Hao Yang:   
-Yifan Li: yli04705@usc.edu, CV: https://drive.google.com/file/d/1GWmU-6UdR4Eowt9dZ0PV4nmUjKzM4hXh/view  
-Dongsheng Yang: dongshen@usc.edu, CV: https://drive.google.com/file/d/1GklAEbLkHt-TFZnA_3y7p3dS2MJqTZUg/view
+Xihao Zhou: xihaozho@usc.edu, [CV](https://drive.google.com/file/d/1yEpapHdKz51QFCS7keB8RNbyjCUqYrxw/view)  
+Ruohan Gao: ruohanga@usc.edu, [CV](https://drive.google.com/file/d/1ED3TDFpMZiveP1AULPJFEyZnrXP03x0l/view)  
+Gan Xin: gxin@usc.edu, [CV](https://drive.google.com/file/d/18wP5TXjkcd-wG8QZAHv4ryXjECM4f_Fd/view)  
+Hao Yang: hyang01@usc.edu, [CV](https://drive.google.com/file/d/1xEe-r8aZ-ZbUzmCEh_GU6n3RTWaZTSlX/view)  
+Yifan Li: yli04705@usc.edu, [CV](https://drive.google.com/file/d/1GWmU-6UdR4Eowt9dZ0PV4nmUjKzM4hXh/view)  
+Dongsheng Yang: dongshen@usc.edu, [CV](https://drive.google.com/file/d/1GklAEbLkHt-TFZnA_3y7p3dS2MJqTZUg/view)
 
 ## Description
 The purpose of ToolFinder is to automatically analysis the functions and metadata from online .md files or description websites of scientific software. Thanks to ToolFinder, now scientific researchers and software developers can save a lot of time on reading descriptions and installation steps.
