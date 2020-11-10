@@ -1,4 +1,4 @@
-#ToolFinder
+# ToolFinder
  Software Metadata Classification Project, for study purpose at USC | DSCI560.
  
  <b>Team members</b>: Xihao Zhou, Ruohan Gao, Gan Xin, Hao Yang, Yifan Li, Dongsheng Yang
