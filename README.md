@@ -33,7 +33,7 @@ pip install -r requirements.txt
 Install Docker first.
 In the directory which has <i>our Dockerfile</i>, build the docker container:
 ```
-docker build -t coss
+docker build -t coss .
 ```
 Run it
 ```
@@ -46,7 +46,11 @@ For <b>binary classifiers</b>, just run the 4 ipynb script in "/binary_classifie
 For <b>functional classifier</b>, move to "/functional_classifier" and run des_fuc.ipynb first, then run func_class.ipynb.
 ## Usage (interactive visualization)
 An interactive Bokeh visualization which can handle URL inputs(any URL with description, don't need to be .md file), return function prediction result. Also, visualize our training result and compaire with SOMEF.
-Firstly you need to go to the directory of visualization locally, and start the bokeh server application.   
+After finishing the installation of the virtual environment or docker container (as shown in above), you can activate the virtual environment and use that for running the visualization.  
+```
+. ./your_venv_name/bin/activate
+```
+You need to go to folder of our repository locally and cd into the directory of visualization, and start the bokeh server application.   
 ```
 cd visualization
 bokeh serve --show interactive_ui.py
