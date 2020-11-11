@@ -102,7 +102,7 @@ def functional_predict(input_url='https://github.com/alvinzhou66/classification-
 		new_prob.append(x)
 	summury = sum(new_prob)
 	new_prob = [x / summury for x in new_prob]
-	new_prob_dict = {'Data Analysis': new_prob[0], 'Deep Learning': new_prob[1], 'Data Management': new_prob[2]}
+	new_prob_dict = {'Data Analysis': new_prob[0], 'Data Management': new_prob[1], 'Deep Learning': new_prob[2]}
 	print('Chance to be DA:', new_prob[0])
 	print('Chance to be DM:', new_prob[1])
 	print('Chance to be DL:', new_prob[2])
