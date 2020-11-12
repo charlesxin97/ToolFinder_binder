@@ -58,7 +58,8 @@ bokeh serve --show interactive_ui.py
 1. Functional classifier.  
 To use the functional classifier, you need to input the url into the box and click the predict button. Then the result will show in the pie chart, which contains the probabilities of your input project being different type of scientific software. The result may show after several seconds due to crawling the website and the inference of the model.  
 ![image](/images/pie.png) 
-2. Binary classifiers.  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alvinzhou66/ToolFinder/main?filepath=%2Fbinary_classifier%2FSOMEF_BIN_classifier.ipynb)
+2. Binary classifiers.  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alvinzhou66/ToolFinder/main?filepath=%2Fbinary_classifier%2FSOMEF_BIN_classifier.ipynb) 
+ 
 To use the binary classifiers, you can use the <i>binder badge</i> above, or you need to first:  
 ```
 cd binary_classifier
