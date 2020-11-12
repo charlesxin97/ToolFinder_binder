@@ -29,7 +29,7 @@ from bs4 import BeautifulSoup
 from functional_classifier_module import *
 from math import pi
 from bokeh.io import output_file, show
-from bokeh.palettes import Category20c
+from bokeh.palettes import Category20
 from bokeh.plotting import figure
 
 title = Div(text="""<b>Classification of scientific software project</b><br>There are two parts in this 
@@ -46,7 +46,7 @@ source_pie = ColumnDataSource(data=dict(
 	start=[0, 0.33 * 2 * pi, 0.66 * 2 * pi], end=[0.33 * 2 * pi, 0.66 * 2 * pi, 2 * pi],
 	name=['Probability of Data Analysis', 'Probability of Deep Learning', 'Probability of Data '
 	                                                                      'Management'],
-	color=Category20c[3], value=[0.33, 0.33, 0.33]
+	color=Category20[3], value=[0.33, 0.33, 0.33]
 ))
 
 p = figure(plot_height=350, title="Probability of being each functional type for the project (changes may take seconds"
@@ -73,7 +73,7 @@ def func_classifier_callback():
 	new_dict = dict(name=['Probability of Data Analysis', 'Probability of Deep Learning', 'Probability of '
 	                                                                                      'Data '
 	                                                                                      'Management'],
-	                color=Category20c[3])
+	                color=Category20[3])
 	start = [0, prob_dict['Data Analysis'] * 2 * pi,
 	         prob_dict['Data Analysis'] * 2 * pi + prob_dict['Deep Learning'] * 2 * pi]
 	end = [prob_dict['Data Analysis'] * 2 * pi,
