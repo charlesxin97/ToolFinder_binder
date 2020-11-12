@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 3. Docker.  
 Install Docker first.
-In the directory which has <i>our Dockerfile</i>, build the docker container:
+In the directory which has <i>our Dockerfile (in folder -> /Docker_workspace)</i>, build the docker container:
 ```
 docker build -t coss .
 ```
