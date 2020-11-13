@@ -37,7 +37,7 @@ docker build -t coss .
 ```
 Run it
 ```
-docker run -ti --name coss coss
+docker run -p 5006:5006 -it coss
 ```
 --------------------------------------
 
