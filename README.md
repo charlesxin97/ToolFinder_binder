@@ -40,7 +40,7 @@ Run it
 ```
 docker run -p 5006:5006 -it coss
 ```
-<b>Please make sure your docker server is up-to-date!!!</b>
+<b>Please make sure your docker server is up-to-date</b>.
 We failed to build docker container and receive the following error on some machines, it says we don't have this file in our REPO, but we do! So please clean your docker image history and data or update it to the latest version, it may solve this problem.
 ![image](/images/1.png)
 --------------------------------------
