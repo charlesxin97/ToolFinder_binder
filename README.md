@@ -32,7 +32,7 @@ pip install -r requirements.txt
 3. Docker.  
 Install Docker first.  
 
-In the directory which has <i>our Dockerfile (in folder -> /Docker_workspace)</i>, build the docker container:
+In the directory which has <i>our Dockerfile</i>, build the docker container:
 ```
 docker build -t coss .
 ```
@@ -40,9 +40,6 @@ Run it
 ```
 docker run -p 5006:5006 -it coss
 ```
-<b>Please make sure your docker server is up-to-date</b>.
-We failed to build docker container and receive the following error on some machines, it says we don't have this file in our REPO, but we do! So please clean your docker image history and data or update it to the latest version, it may solve this problem.
-![image](/images/1.png)
 --------------------------------------
 
 For <b>binary classifiers</b>, just run the 4 ipynb script in "/binary_classifier" folder.
