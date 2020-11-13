@@ -30,7 +30,8 @@ Move into the Repo and install the packages using the requirements.txt file.
 pip install -r requirements.txt
 ```
 3. Docker.  
-Install Docker first.
+Install Docker first.  
+
 In the directory which has <i>our Dockerfile (in folder -> /Docker_workspace)</i>, build the docker container:
 ```
 docker build -t coss .
@@ -39,12 +40,17 @@ Run it
 ```
 docker run -p 5006:5006 -it coss
 ```
+<b>Please make sure your docker server is up-to-date!!!</b>
+
+We failed to build docker container and receive the following error on some machines, it says we don't have this file in our REPO, but we do! So please clean your docker image history and data or update it to the latest version, it may solve this problem.
+![image](/images/1.png)
 --------------------------------------
 
 For <b>binary classifiers</b>, just run the 4 ipynb script in "/binary_classifier" folder.
 
 For <b>functional classifier</b>, move to "/functional_classifier" and run des_fuc.ipynb first, then run func_class.ipynb.
 ## Usage (interactive visualization)
+1. Functional classifier. 
 An interactive Bokeh visualization which can handle URL inputs(any URL with description, don't need to be .md file), return function prediction result. Also, visualize our training result and compaire with SOMEF.
 <b>After finishing the installation of the virtual environment or docker container (as shown in above), you can activate the virtual environment and use that for running the visualization.</b>  
 ```
@@ -55,9 +61,11 @@ You need to go to folder of our repository locally and cd into the directory of 
 cd visualization
 bokeh serve --show interactive_ui.py
 ```
-1. Functional classifier.  
+Then go to your localhost:5006 port to see the visualization result.
+
 To use the functional classifier, you need to input the url into the box and click the predict button. Then the result will show in the pie chart, which contains the probabilities of your input project being different type of scientific software. The result may show after several seconds due to crawling the website and the inference of the model.  
 ![image](/images/pie.png) 
+
 2. Binary classifiers.  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alvinzhou66/ToolFinder/main?filepath=%2Fbinary_classifier%2FSOMEF_BIN_classifier.ipynb) 
  
 To use the binary classifiers, you can use the <i>binder badge</i> above, or you need to first:  
