@@ -41,7 +41,6 @@ Run it
 docker run -p 5006:5006 -it coss
 ```
 <b>Please make sure your docker server is up-to-date!!!</b>
-
 We failed to build docker container and receive the following error on some machines, it says we don't have this file in our REPO, but we do! So please clean your docker image history and data or update it to the latest version, it may solve this problem.
 ![image](/images/1.png)
 --------------------------------------
@@ -61,7 +60,7 @@ You need to go to folder of our repository locally and cd into the directory of 
 cd visualization
 bokeh serve --show interactive_ui.py
 ```
-Then go to your localhost:5006 port to see the visualization result.
+Then go to your <b>localhost:5006</b> port to see the visualization result.
 
 To use the functional classifier, you need to input the url into the box and click the predict button. Then the result will show in the pie chart, which contains the probabilities of your input project being different type of scientific software. The result may show after several seconds due to crawling the website and the inference of the model.  
 ![image](/images/pie.png) 
