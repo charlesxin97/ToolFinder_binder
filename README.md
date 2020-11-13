@@ -23,7 +23,7 @@ pip install -r requirements.txt
 2. Local (make sure you have python 3.7.x).  
 Download Zip or clone my reporsitory.
 ```
-git@github.com:alvinzhou66/classification-of-scientific-software.git
+git@github.com:alvinzhou66/ToolFinder.git
 ```
 Move into the Repo and install the packages using the requirements.txt file.
 ```
